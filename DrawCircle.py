@@ -2,18 +2,14 @@
 #Description-This script draws a circle
 
 import adsk.core, adsk.fusion, traceback
-    
-#def draw_rectangle(design, x1, y1, x2, y2, d, name):
-#    # Get the root component of the active design
-#    r = lines.addTwoPointRectangle(adsk.core.Point3D.create(x1, y1, 0), adsk.core.Point3D.create(x2, y2,0))
-#    #sketch.profiles.item
-#    extInput = extrudes.createInput(sketch.profiles.item(0), adsk.fusion.FeatureOperations.NewComponentFeatureOperation)
-#    distance = adsk.core.ValueInput.createByReal(d)
-#    extInput.setDistanceExtent(False, distance)
-#    extInput.name = name
-#    k = extrudes.add(extInput)
-#    comp = k.parentComponent
-#    comp.name = name
+
+# todo:
+# - get objects to extract correctly
+# - place tabs
+# - place shelves
+# - combine objects
+# - dogbone
+# - yeah
     
 def draw2(x1, y1, x2, y2, d, name, sketch, lines, extrudes, r):
     oSketchLineList = lines.addTwoPointRectangle(adsk.core.Point3D.create(x1, y1, 0), adsk.core.Point3D.create(x2, y2,0))
