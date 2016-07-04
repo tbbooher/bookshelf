@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Tim Booher",
+	"description":	{
+		"":	"This script draws a circle"
+	},
+	"supportedOS":	"mac",
+	"editEnabled":	true
+}
